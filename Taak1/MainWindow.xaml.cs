@@ -67,5 +67,29 @@ namespace Taak1
             main.Background = Brushes.LightGray;
 
         }
+
+        private void Image_MouseDown(object sender, MouseButtonEventArgs e)
+        {
+            KleurCode.Text = "#FF0000";
+
+        }
+
+        private void Image_MouseDown_1(object sender, MouseButtonEventArgs e)
+        {
+            KleurCode.Text = "#FFFF00";
+
+        }
+
+        private void Image_MouseDown_2(object sender, MouseButtonEventArgs e)
+        {
+            KleurCode.Text = "#008000";
+
+        }
+
+        private void Image_MouseDown_3(object sender, MouseButtonEventArgs e)
+        {
+            KleurCode.Text = "#0000FF";
+
+        }
     }
 }
