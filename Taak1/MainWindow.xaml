@@ -9,14 +9,15 @@
         Background="LightGray"
         Name="main">
     <Grid>
-        <TextBlock HorizontalAlignment="Left" Margin="39,34,0,0" TextWrapping="Wrap" Text="Kleurenpsychologie" VerticalAlignment="Top" FontSize="22"/>
+        <TextBlock HorizontalAlignment="Left" Margin="39,14,0,0" TextWrapping="Wrap" Text="Kleurenpsychologie" VerticalAlignment="Top" FontSize="22"/>
         <Image HorizontalAlignment="Left" Height="100" Margin="680,10,0,0" VerticalAlignment="Top" Width="100" Source="/PXL.png"/>
-        <Image MouseDown="Image_MouseDown" MouseEnter="Image_MouseEnter"   MouseLeave="Image_MouseLeave" HorizontalAlignment="Left" Height="133" Margin="134,83,0,0" VerticalAlignment="Top" Width="139" Source="/Rood.png"/>
-        <Image MouseDown="Image_MouseDown_1" MouseEnter="Image_MouseEnter_1" MouseLeave="Image_MouseLeave_1" HorizontalAlignment="Left" Height="123" Margin="316,81,0,0" VerticalAlignment="Top" Width="145" Source="/Geel.png"/>
-        <Image MouseDown="Image_MouseDown_2" MouseEnter="Image_MouseEnter_2" MouseLeave="Image_MouseLeave_2" HorizontalAlignment="Left" Height="104" Margin="130,192,0,0" VerticalAlignment="Top" Width="143" Source="/Groen.png"/>
-        <Image MouseDown="Image_MouseDown_3" MouseEnter="Image_MouseEnter_3" MouseLeave="Image_MouseLeave_3" HorizontalAlignment="Left" Height="149" Margin="316,192,0,0" VerticalAlignment="Top" Width="145" Source="/Blauw.png"/>
-        <Label Content="Kleurcode" HorizontalAlignment="Left" Margin="39,311,0,0" VerticalAlignment="Top" Width="111" FontSize="20"/>
-        <TextBox x:Name="KleurCode" HorizontalAlignment="Left" Margin="146,311,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="254" Height="41" FontSize="20" >
+        <Image MouseDown="Image_MouseDown" MouseEnter="Image_MouseEnter"   MouseLeave="Image_MouseLeave" HorizontalAlignment="Left" Height="133" Margin="134,48,0,0" VerticalAlignment="Top" Width="139" Source="/Rood.png"/>
+        <Image MouseDown="Image_MouseDown_1" MouseEnter="Image_MouseEnter_1" MouseLeave="Image_MouseLeave_1" HorizontalAlignment="Left" Height="123" Margin="316,43,0,0" VerticalAlignment="Top" Width="145" Source="/Geel.png"/>
+        <Image MouseDown="Image_MouseDown_2" MouseEnter="Image_MouseEnter_2" MouseLeave="Image_MouseLeave_2" HorizontalAlignment="Left" Height="104" Margin="132,156,0,0" VerticalAlignment="Top" Width="143" Source="/Groen.png"/>
+        <Image MouseDown="Image_MouseDown_3" MouseEnter="Image_MouseEnter_3" MouseLeave="Image_MouseLeave_3" HorizontalAlignment="Left" Height="149" Margin="316,155,0,0" VerticalAlignment="Top" Width="145" Source="/Blauw.png"/>
+        <Label Content="Kleurcode" HorizontalAlignment="Left" Margin="49,267,0,0" VerticalAlignment="Top" Width="111" FontSize="20"/>
+        <TextBox x:Name="KleurCode" HorizontalAlignment="Left" Margin="165,267,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="254" Height="46" FontSize="20" >
+
             <TextBox.BorderBrush>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                     <GradientStop Color="Black"/>
@@ -24,6 +25,15 @@
                 </LinearGradientBrush>
             </TextBox.BorderBrush>
         </TextBox>
+        <TextBox x:Name="Informatie" HorizontalAlignment="Left" Margin="165,331,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="254" Height="65" FontSize="20" >
+            <TextBox.BorderBrush>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="#FF030303" Offset="1"/>
+                </LinearGradientBrush>
+            </TextBox.BorderBrush>
+        </TextBox>
+        <Label Content="Informatie" HorizontalAlignment="Left" Margin="49,331,0,0" VerticalAlignment="Top" FontSize="20" Width="143"/>
 
     </Grid>
 </Window>
